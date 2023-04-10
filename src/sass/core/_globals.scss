@@ -1,0 +1,29 @@
+@use "../core/variables.scss";
+@use "../
+
+html {
+  font-family: variables.$secondary-font;
+  font-size: variables.$text-font-size;
+  font-weight: variables.$font-weight-small;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  font-size: 50px;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.container {
+  margin: 32px 16px;
+}
+
+.sedans-block {
+  background-color: variables.$sedan-card-color;
+}
