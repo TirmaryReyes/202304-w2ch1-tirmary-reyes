@@ -1,0 +1,41 @@
+@use "../variables.scss";
+
+button {
+  width: 145px;
+  height: 40px;
+  border-radius: 28px;
+  background-color: white;
+  padding: 16px 31px;
+  align-items: center;
+  display: flex;
+}
+
+.first-block button:hover {
+  background-color: variables.$sedan-card-color;
+  color: white;
+  border: 1px solid white;
+}
+
+.second-block button:hover {
+  background-color: variables.$suvs-card-color;
+  color: white;
+  border: 1px solid white;
+}
+.third-block button:hover {
+  background-color: variables.$luxury-card-color;
+  color: white;
+  border: 1px solid white;
+}
+
+.first-block button {
+  color: variables.$sedan-card-color;
+}
+.second-block button {
+  color: variables.$suvs-card-color;
+}
+
+.first-block img,
+.second-block img,
+.third-block img {
+  padding-left: 30px;
+}

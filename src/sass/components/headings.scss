@@ -1,0 +1,8 @@
+@use "../variables.scss";
+
+h2 {
+  font-family: variables.$main-font;
+  font-weight: variables.$font-weight-big;
+  font-size: 30px;
+  padding: 30px;
+}

@@ -1,3 +1,6 @@
-@use "core/resets.scss";
-@use "core/globals.scss";
-@use "core/variables.scss";
+@use "../sass/core/_globals.scss";
+@use "../sass/core/_resets.scss";
+@use "../sass/core/functions.scss";
+@use "../sass/core/components/headings.scss";
+@use "../sass/core/components/buttons.scss";
+@use "../sass/core/components/sections.scss";
