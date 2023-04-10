@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "build-styles": "sass src/sass/styles.scss app/css/styles.css",
-    "build-styles:dev": "sass --watch src/sass/styles.scss src/css/styles.css"
+    "build-styles": "sass sass/styles.scss app/css/styles.css",
+    "build-styles:dev": "sass --watch src/sass/styles.scss app/src/css/styles.css"
   },
   "keywords": [],
   "author": "",
