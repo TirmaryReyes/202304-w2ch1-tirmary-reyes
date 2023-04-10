@@ -1,10 +1,11 @@
 @use "../core/variables.scss";
 
 html {
+  background-color: white;
   font-family: variables.$secondary-font;
   font-size: variables.$text-font-size;
   font-weight: variables.$font-weight-small;
-  color: white;
+  color: rgb(232, 220, 220);
 }
 
 h2 {
@@ -23,6 +24,6 @@ button {
   margin: 32px 16px;
 }
 
-.sedans-block {
-  background-color: variables.$sedan-card-color;
+.first-block {
+  background-color: variables.$first-card-color;
 }
